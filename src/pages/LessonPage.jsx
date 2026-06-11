@@ -45,7 +45,9 @@ export default function LessonPage() {
     )
   }
 
-  return <Lesson lesson={lesson} />
+  // Key by lesson id so navigating between lessons remounts the view with
+  // fresh state (quiz answers, widget state) instead of reusing the old tree.
+  return <Lesson key={lesson.id} lesson={lesson} />
 }
 
 function Notice({ title, body, tier, badge, icon }) {
