@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply bg-surface text-ink antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  /* Custom scrollbar — dark theme */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--surface);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--rim);
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--ink-dim);
+  }
+}
+
+@layer components {
+  /* Subtle teal glow used on active/accent elements */
+  .accent-glow {
+    box-shadow: 0 0 20px var(--accent-glow);
+  }
+
+  /* Prose-like paragraph spacing inside lesson content */
+  .lesson-prose p {
+    @apply mb-4 leading-relaxed text-ink;
+  }
+  .lesson-prose p:last-child {
+    @apply mb-0;
+  }
+}
