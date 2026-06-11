@@ -36,6 +36,8 @@ import { lesson as riskManagement } from './full/risk-management'
 import { lesson as tokenomics } from './full/tokenomics'
 import { lesson as pickingCoins } from './full/picking-coins'
 import { lesson as onChainAnalysis } from './full/on-chain-analysis'
+import { lesson as advancedDefi } from './full/advanced-defi'
+import { lesson as bridgesDaosGovernance } from './full/bridges-daos-governance'
 import { lesson as regulationTaxes } from './full/regulation-taxes'
 
 const FULL_LESSONS = [
@@ -68,6 +70,8 @@ const FULL_LESSONS = [
   tokenomics,
   pickingCoins,
   onChainAnalysis,
+  advancedDefi,
+  bridgesDaosGovernance,
   regulationTaxes,
 ]
 

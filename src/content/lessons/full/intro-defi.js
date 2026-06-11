@@ -93,7 +93,7 @@ export const lesson = {
     },
     {
       type: 'paragraph',
-      text: 'That completes the intermediate tier: you can now read a chain\'s architecture, its tokens, and the DeFi machinery built on top. The advanced tier turns to the markets themselves — order books, derivatives, risk — and later circles back to DeFi\'s deeper machinery (CDPs, flash loans, MEV) on the roadmap. Start small, read what you sign, and treat every advertised yield as a question, not an answer.',
+      text: 'That completes the intermediate tier: you can now read a chain\'s architecture, its tokens, and the DeFi machinery built on top. The advanced tier turns to the markets themselves — order books, derivatives, risk — and later circles back to DeFi\'s deeper machinery in the Advanced DeFi lesson (CDPs, flash loans, MEV). Start small, read what you sign, and treat every advertised yield as a question, not an answer.',
     },
   ],
 
