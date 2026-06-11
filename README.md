@@ -45,7 +45,7 @@ Requires Node 18+ (developed on Node 20).
 
 ## What's built (the vertical slice)
 
-- **16 full lessons** with complete content + quizzes, chosen to hit every pattern:
+- **25 full lessons** with complete content + quizzes, chosen to hit every pattern:
   - *Why Crypto Exists* — plain-text lesson
   - *Blocks, Hashing & the Chain* — embedded **diagram** + embedded **interactive
     simulator** + a quiz using **non-multiple-choice** question types

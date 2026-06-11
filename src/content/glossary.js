@@ -45,7 +45,9 @@ export const GLOSSARY = [
   { id: 'smart-contract', term: 'Smart Contract', tier: 'Intermediate', definition: 'Code deployed on-chain that runs exactly as written when called, without an intermediary.' },
   { id: 'gas', term: 'Gas', tier: 'Intermediate', definition: 'The unit measuring computational work on Ethereum and similar chains. Users pay a gas fee, in the chain\'s native coin, to have transactions processed — colloquially, any chain\'s transaction fee.' },
   { id: 'token', term: 'Token', tier: 'Intermediate', definition: 'An asset issued via a smart contract on an existing chain (e.g. an ERC-20), as opposed to a chain\'s native coin.' },
+  { id: 'erc-20', term: 'ERC-20', tier: 'Intermediate', definition: 'The Ethereum standard interface for fungible tokens (transfer, balanceOf, approve). Any wallet or DEX that supports ERC-20 works with every token that implements it.' },
   { id: 'stablecoin', term: 'Stablecoin', tier: 'Intermediate', definition: 'A token designed to hold a stable value, usually pegged to a fiat currency like the US dollar.' },
+  { id: 'depeg', term: 'Depeg', tier: 'Intermediate', definition: 'When a stablecoin trades significantly away from its target value — a brief wobble if arbitrage restores it, or a death spiral if confidence in the mechanism collapses.' },
 
   // --- Keys & wallets ---
   { id: 'private-key', term: 'Private Key', tier: 'Beginner', definition: 'A secret number that authorizes spending from an account. Whoever knows it controls the funds, so it must never be shared.' },
@@ -90,6 +92,17 @@ export const GLOSSARY = [
   { id: 'funding-rate', term: 'Funding Rate', tier: 'Advanced', definition: 'Periodic payments exchanged between longs and shorts in a perpetual market to tether its price to spot.' },
   { id: 'margin', term: 'Margin', tier: 'Advanced', definition: 'The collateral backing a leveraged position. Initial margin opens it; maintenance margin keeps it from liquidation.' },
   { id: 'compounding', term: 'Compounding', tier: 'Beginner', definition: 'Earning returns on both your principal and previously earned returns, so growth accelerates over time.' },
+  { id: 'order-book', term: 'Order Book', tier: 'Advanced', definition: 'The live list of standing buy orders (bids) and sell orders (asks) at each price level. Its depth shows how much an order can trade without moving the price.' },
+  { id: 'spread', term: 'Spread (Bid-Ask)', tier: 'Advanced', definition: 'The gap between the highest bid and the lowest ask. A tight spread signals a liquid market; a wide one is an instant cost to anyone trading.' },
+  { id: 'market-order', term: 'Market Order', tier: 'Advanced', definition: 'An order that executes immediately at the best available prices in the book — guaranteed execution, unguaranteed price.' },
+  { id: 'limit-order', term: 'Limit Order', tier: 'Advanced', definition: 'An order that fills only at a specified price or better. It may never execute, and while resting it provides liquidity to the book.' },
+  { id: 'slippage', term: 'Slippage', tier: 'Advanced', definition: 'The difference between the expected price of a trade and the average price actually received, caused by an order consuming multiple levels of a book or pool.' },
+  { id: 'stop-loss', term: 'Stop-Loss', tier: 'Advanced', definition: 'An order that triggers when price crosses a set level, used to exit a losing position automatically. The trigger is guaranteed; the fill price is not.' },
+  { id: 'candlestick', term: 'Candlestick', tier: 'Advanced', definition: 'A chart element summarizing one time interval with four prices: open, high, low, close. The body spans open-close; the wicks mark the extremes.' },
+  { id: 'support-resistance', term: 'Support & Resistance', tier: 'Advanced', definition: 'Price areas where moves have repeatedly stalled — support below (buying absorbs falls), resistance above (selling caps rallies). Broken levels often swap roles.' },
+  { id: 'moving-average', term: 'Moving Average', tier: 'Advanced', definition: 'The average price over a rolling window (e.g. 50 or 200 days), used to smooth noise and define trend direction.' },
+  { id: 'risk-reward', term: 'Risk/Reward Ratio', tier: 'Advanced', definition: 'The distance to your stop versus the distance to your target. At 1:2 or better, a trader can be wrong most of the time and still be profitable.' },
+  { id: 'drawdown', term: 'Drawdown', tier: 'Advanced', definition: 'The decline from an account\'s peak to its low. Recovery is asymmetric: a 50% drawdown requires a 100% gain to get back to even.' },
 
   // --- Evaluating & investing ---
   { id: 'market-cap', term: 'Market Capitalization', tier: 'Intermediate', definition: 'Price × circulating supply — what the market currently values an asset\'s liquid supply at. Compare it to FDV to see how much supply is still locked.' },
@@ -97,6 +110,12 @@ export const GLOSSARY = [
   { id: 'liquidity', term: 'Liquidity', tier: 'Intermediate', definition: 'How much of an asset can be bought or sold without significantly moving its price. Thin liquidity makes exits costly and manipulation cheap.' },
   { id: 'vesting', term: 'Vesting / Unlocks', tier: 'Advanced', definition: 'The schedule on which locked tokens (team, investors, treasury) become tradable. Unlock events add supply to the market and often precede selling pressure.' },
   { id: 'dca', term: 'DCA (Dollar-Cost Averaging)', tier: 'Beginner', definition: 'Investing a fixed amount at regular intervals regardless of price, spreading entries over time instead of trying to time the market.' },
+  { id: 'emissions', term: 'Emissions', tier: 'Advanced', definition: 'The schedule and rate at which new tokens are released into circulation — effectively a forecast of how fast existing holders are diluted.' },
+  { id: 'token-burn', term: 'Token Burn', tier: 'Advanced', definition: 'Permanently destroying tokens to reduce supply, e.g. by sending them to an unspendable address. Ethereum burns part of every transaction fee.' },
+
+  // --- Regulation & taxes ---
+  { id: 'capital-gains', term: 'Capital Gain', tier: 'Advanced', definition: 'The profit realized when disposing of an asset: proceeds minus cost basis. Many jurisdictions tax long-held gains at lower rates than short-term ones.' },
+  { id: 'cost-basis', term: 'Cost Basis', tier: 'Advanced', definition: 'What you originally paid for an asset, including fees — the number subtracted from sale proceeds to compute your taxable gain or loss.' },
 ]
 
 // Fast id → term lookup, built once.
