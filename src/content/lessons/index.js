@@ -27,10 +27,13 @@ import { lesson as stablecoins } from './full/stablecoins'
 import { lesson as stakingYield } from './full/staking-yield'
 import { lesson as marketStructure } from './full/market-structure'
 import { lesson as technicalAnalysis } from './full/technical-analysis'
+import { lesson as futuresVsPerps } from './full/futures-vs-perps'
 import { lesson as perpetualFutures } from './full/perpetual-futures'
+import { lesson as optionsPayoffs } from './full/options-payoffs'
 import { lesson as riskManagement } from './full/risk-management'
 import { lesson as tokenomics } from './full/tokenomics'
 import { lesson as pickingCoins } from './full/picking-coins'
+import { lesson as onChainAnalysis } from './full/on-chain-analysis'
 import { lesson as regulationTaxes } from './full/regulation-taxes'
 
 const FULL_LESSONS = [
@@ -54,10 +57,13 @@ const FULL_LESSONS = [
   stakingYield,
   marketStructure,
   technicalAnalysis,
+  futuresVsPerps,
   perpetualFutures,
+  optionsPayoffs,
   riskManagement,
   tokenomics,
   pickingCoins,
+  onChainAnalysis,
   regulationTaxes,
 ]
 

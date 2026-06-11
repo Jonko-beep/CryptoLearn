@@ -125,7 +125,7 @@ export const lesson = {
       type: 'callout',
       variant: 'warning',
       title: 'Process over picks',
-      text: 'Notice that this lesson never named a coin to buy. That is the point: tips that name tickers expire in weeks; a research process lasts. The Tokenomics and Risk Management lessons you have already taken deepen two parts of this framework; On-Chain Analysis (on the roadmap) will add a third.',
+      text: 'Notice that this lesson never named a coin to buy. That is the point: tips that name tickers expire in weeks; a research process lasts. The Tokenomics and Risk Management lessons you have already taken deepen two parts of this framework; the next lesson, On-Chain Analysis, adds the third.',
     },
   ],
 

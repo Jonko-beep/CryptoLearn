@@ -20,7 +20,7 @@ export const lesson = {
     },
     {
       type: 'paragraph',
-      text: 'A [[perpetual|perpetual future]] ("perp") is the most-traded instrument in crypto. It lets you take a leveraged long or short position on an asset\'s price with **no expiry date** — unlike traditional futures, it never settles. Two mechanisms make that work: [[leverage]] and the [[funding-rate|funding rate]].',
+      text: 'A [[perpetual|perpetual future]] ("perp") is the most-traded instrument in crypto. It lets you take a leveraged long or short position on an asset\'s price with **no expiry date** — as the last lesson showed, it never settles. This lesson takes the instrument apart. Two mechanisms make it work: [[leverage]] and the [[funding-rate|funding rate]].',
     },
     {
       type: 'heading',

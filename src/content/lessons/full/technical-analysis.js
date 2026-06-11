@@ -79,7 +79,7 @@ export const lesson = {
       type: 'callout',
       variant: 'warning',
       title: 'TA tells you where, not whether',
-      text: 'Used well, TA does not predict the future — it structures decisions: where to enter, where you are wrong, where to take profit. Used badly, it manufactures confidence in coin flips. The difference between those two traders is not the charts; it is the next lesson\'s subject — risk management.',
+      text: 'Used well, TA does not predict the future — it structures decisions: where to enter, where you are wrong, where to take profit. Used badly, it manufactures confidence in coin flips. The difference between those two traders is not the charts; it is this module\'s closing subject — risk management.',
     },
     {
       type: 'paragraph',

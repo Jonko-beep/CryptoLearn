@@ -109,9 +109,9 @@ export const CURRICULUM = [
         lessons: [
           { id: 'market-structure' },
           { id: 'technical-analysis' },
-          stub('futures-vs-perps', 3, 'Futures vs Perpetual Swaps', 'Expiry-based futures and how perpetuals differ.'),
+          { id: 'futures-vs-perps' },
           { id: 'perpetual-futures' },
-          stub('options-payoffs', 3, 'Options & Payoff Structures', 'Calls, puts, and reading payoff diagrams.'),
+          { id: 'options-payoffs' },
           { id: 'risk-management' },
         ],
       },
@@ -121,7 +121,7 @@ export const CURRICULUM = [
         lessons: [
           { id: 'tokenomics' },
           { id: 'picking-coins' },
-          stub('on-chain-analysis', 3, 'On-Chain Analysis', 'Reading wallet flows, exchange balances, and network activity.'),
+          { id: 'on-chain-analysis' },
           stub('advanced-defi', 3, 'Advanced DeFi', 'CDPs, flash loans, and MEV.'),
           stub('bridges-daos-governance', 3, 'Bridges, DAOs & Governance', 'Moving assets across chains and on-chain decision-making.'),
           { id: 'regulation-taxes' },

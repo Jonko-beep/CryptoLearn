@@ -86,6 +86,14 @@ export const GLOSSARY = [
   { id: 'satoshi', term: 'Satoshi', tier: 'Beginner', definition: 'The smallest unit of bitcoin: one hundred-millionth (0.00000001) of a BTC. Named after Bitcoin\'s pseudonymous creator.' },
 
   // --- Markets & derivatives ---
+  { id: 'derivative', term: 'Derivative', tier: 'Advanced', definition: 'A contract whose value derives from an underlying asset\'s price without holding the asset — futures, perpetuals, and options are the crypto staples.' },
+  { id: 'futures-contract', term: 'Futures Contract', tier: 'Advanced', definition: 'An agreement to buy or sell an asset at a set price on a set expiry date, settling in cash or by delivery when that date arrives.' },
+  { id: 'basis', term: 'Basis', tier: 'Advanced', definition: 'The gap between a futures contract\'s price and the spot price. Positive in contango (futures above spot), negative in backwardation.' },
+  { id: 'hedge', term: 'Hedge', tier: 'Advanced', definition: 'A position taken to offset risk in another — e.g. shorting a future or buying a put against holdings you keep.' },
+  { id: 'call-option', term: 'Call Option', tier: 'Advanced', definition: 'The right, but not the obligation, to BUY an asset at a fixed strike price until expiry. Buyers profit from rises; loss is capped at the premium.' },
+  { id: 'put-option', term: 'Put Option', tier: 'Advanced', definition: 'The right, but not the obligation, to SELL an asset at a fixed strike price until expiry — a bearish bet or insurance on holdings.' },
+  { id: 'strike-price', term: 'Strike Price', tier: 'Advanced', definition: 'The fixed price at which an option can be exercised. Payoffs hinge on where the asset finishes relative to the strike.' },
+  { id: 'option-premium', term: 'Option Premium', tier: 'Advanced', definition: 'The upfront price paid for an option — intrinsic value plus time value. It is the buyer\'s maximum loss and the writer\'s maximum gain.' },
   { id: 'leverage', term: 'Leverage', tier: 'Advanced', definition: 'Borrowing to control a position larger than your capital. Multiplies both gains and losses.' },
   { id: 'liquidation', term: 'Liquidation', tier: 'Advanced', definition: 'Forced closure of a leveraged position when losses erode the margin below the maintenance requirement.' },
   { id: 'perpetual', term: 'Perpetual Future', tier: 'Advanced', definition: 'A derivative that tracks an asset\'s price with no expiry, kept near spot price by periodic funding payments.' },
@@ -112,6 +120,9 @@ export const GLOSSARY = [
   { id: 'dca', term: 'DCA (Dollar-Cost Averaging)', tier: 'Beginner', definition: 'Investing a fixed amount at regular intervals regardless of price, spreading entries over time instead of trying to time the market.' },
   { id: 'emissions', term: 'Emissions', tier: 'Advanced', definition: 'The schedule and rate at which new tokens are released into circulation — effectively a forecast of how fast existing holders are diluted.' },
   { id: 'token-burn', term: 'Token Burn', tier: 'Advanced', definition: 'Permanently destroying tokens to reduce supply, e.g. by sending them to an unspendable address. Ethereum burns part of every transaction fee.' },
+  { id: 'block-explorer', term: 'Block Explorer', tier: 'Intermediate', definition: 'A website that renders raw blockchain data as readable pages — look up any transaction, address balance, token supply, or holder list.' },
+  { id: 'whale', term: 'Whale', tier: 'Intermediate', definition: 'An entity holding enough of an asset that its trades move the market. On transparent ledgers, whale wallets can be watched in real time.' },
+  { id: 'tvl', term: 'TVL (Total Value Locked)', tier: 'Advanced', definition: 'The total capital deposited in a DeFi protocol\'s smart contracts — a rough gauge of the protocol\'s scale and the trust users place in it.' },
 
   // --- Regulation & taxes ---
   { id: 'capital-gains', term: 'Capital Gain', tier: 'Advanced', definition: 'The profit realized when disposing of an asset: proceeds minus cost basis. Many jurisdictions tax long-held gains at lower rates than short-term ones.' },
