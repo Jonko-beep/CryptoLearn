@@ -80,8 +80,8 @@ export const CURRICULUM = [
         name: 'Tokens & Scaling',
         lessons: [
           { id: 'coins-vs-tokens' },
-          stub('nfts', 2, 'NFTs', 'Non-fungible tokens: unique on-chain ownership and its uses.'),
-          stub('gas-fees', 2, 'Gas Fees', 'What you are really paying for, and how fees are set.'),
+          { id: 'nfts' },
+          { id: 'gas-fees' },
           { id: 'stablecoins' },
           stub('layer-2s', 2, 'Layer 2s (Rollups)', 'Scaling Ethereum by moving execution off-chain while inheriting its security.'),
         ],

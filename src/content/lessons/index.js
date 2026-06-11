@@ -23,6 +23,8 @@ import { lesson as ethereumArchitecture } from './full/ethereum-architecture'
 import { lesson as solanaArchitecture } from './full/solana-architecture'
 import { lesson as coinsAtAGlance } from './full/coins-at-a-glance'
 import { lesson as coinsVsTokens } from './full/coins-vs-tokens'
+import { lesson as nfts } from './full/nfts'
+import { lesson as gasFees } from './full/gas-fees'
 import { lesson as stablecoins } from './full/stablecoins'
 import { lesson as stakingYield } from './full/staking-yield'
 import { lesson as validatorsDeep } from './full/validators-deep'
@@ -57,6 +59,8 @@ const FULL_LESSONS = [
   solanaArchitecture,
   coinsAtAGlance,
   coinsVsTokens,
+  nfts,
+  gasFees,
   stablecoins,
   stakingYield,
   validatorsDeep,
