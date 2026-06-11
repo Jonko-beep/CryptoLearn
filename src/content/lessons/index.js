@@ -22,6 +22,7 @@ import { lesson as solanaArchitecture } from './full/solana-architecture'
 import { lesson as coinsAtAGlance } from './full/coins-at-a-glance'
 import { lesson as stakingYield } from './full/staking-yield'
 import { lesson as perpetualFutures } from './full/perpetual-futures'
+import { lesson as pickingCoins } from './full/picking-coins'
 
 const FULL_LESSONS = [
   whyCryptoExists,
@@ -39,6 +40,7 @@ const FULL_LESSONS = [
   coinsAtAGlance,
   stakingYield,
   perpetualFutures,
+  pickingCoins,
 ]
 
 /** id → full lesson object. */

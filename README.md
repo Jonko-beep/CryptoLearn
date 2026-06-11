@@ -45,7 +45,7 @@ Requires Node 18+ (developed on Node 20).
 
 ## What's built (the vertical slice)
 
-- **8 full lessons** with complete content + quizzes, chosen to hit every pattern:
+- **16 full lessons** with complete content + quizzes, chosen to hit every pattern:
   - *Why Crypto Exists* — plain-text lesson
   - *Blocks, Hashing & the Chain* — embedded **diagram** + embedded **interactive
     simulator** + a quiz using **non-multiple-choice** question types
@@ -60,7 +60,7 @@ Requires Node 18+ (developed on Node 20).
 - **Progress tracking** persisted to localStorage: per-lesson completion, best scores,
   sequential unlocking, overall/per-tier/per-module percentages, and "continue where you
   left off."
-- **Searchable glossary** (40+ terms) linkable inline from any lesson.
+- **Searchable glossary** (65+ terms) linkable inline from any lesson.
 - **Dashboard** with progress overview and resume card.
 - The **remaining curriculum is stubbed** (title + tier + one-line summary) so the full
   roadmap is visible and the data structure is proven at scale.

@@ -90,6 +90,13 @@ export const GLOSSARY = [
   { id: 'funding-rate', term: 'Funding Rate', tier: 'Advanced', definition: 'Periodic payments exchanged between longs and shorts in a perpetual market to tether its price to spot.' },
   { id: 'margin', term: 'Margin', tier: 'Advanced', definition: 'The collateral backing a leveraged position. Initial margin opens it; maintenance margin keeps it from liquidation.' },
   { id: 'compounding', term: 'Compounding', tier: 'Beginner', definition: 'Earning returns on both your principal and previously earned returns, so growth accelerates over time.' },
+
+  // --- Evaluating & investing ---
+  { id: 'market-cap', term: 'Market Capitalization', tier: 'Intermediate', definition: 'Price × circulating supply — what the market currently values an asset\'s liquid supply at. Compare it to FDV to see how much supply is still locked.' },
+  { id: 'fdv', term: 'FDV (Fully Diluted Valuation)', tier: 'Advanced', definition: 'Price × maximum supply — the hypothetical value if every token existed today. A large gap between FDV and market cap signals future unlock/selling pressure.' },
+  { id: 'liquidity', term: 'Liquidity', tier: 'Intermediate', definition: 'How much of an asset can be bought or sold without significantly moving its price. Thin liquidity makes exits costly and manipulation cheap.' },
+  { id: 'vesting', term: 'Vesting / Unlocks', tier: 'Advanced', definition: 'The schedule on which locked tokens (team, investors, treasury) become tradable. Unlock events add supply to the market and often precede selling pressure.' },
+  { id: 'dca', term: 'DCA (Dollar-Cost Averaging)', tier: 'Beginner', definition: 'Investing a fixed amount at regular intervals regardless of price, spreading entries over time instead of trying to time the market.' },
 ]
 
 // Fast id → term lookup, built once.

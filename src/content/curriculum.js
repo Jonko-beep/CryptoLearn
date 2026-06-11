@@ -120,6 +120,7 @@ export const CURRICULUM = [
         name: 'Advanced Topics',
         lessons: [
           stub('tokenomics', 3, 'Tokenomics', 'Supply schedules, emissions, sinks, and incentive design.'),
+          { id: 'picking-coins' },
           stub('on-chain-analysis', 3, 'On-Chain Analysis', 'Reading wallet flows, exchange balances, and network activity.'),
           stub('advanced-defi', 3, 'Advanced DeFi', 'CDPs, flash loans, and MEV.'),
           stub('bridges-daos-governance', 3, 'Bridges, DAOs & Governance', 'Moving assets across chains and on-chain decision-making.'),
