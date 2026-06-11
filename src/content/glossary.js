@@ -39,6 +39,8 @@ export const GLOSSARY = [
   { id: 'trilemma', term: 'Blockchain Trilemma', tier: 'Advanced', definition: 'The tension between decentralization, security, and scalability — optimizing two tends to compromise the third.' },
   { id: 'validator', term: 'Validator', tier: 'Intermediate', definition: 'A node in a Proof-of-Stake network that proposes and attests to blocks, earning rewards and risking slashing.' },
   { id: 'staking', term: 'Staking', tier: 'Intermediate', definition: 'Locking up tokens to help secure a PoS network in exchange for rewards.' },
+  { id: 'delegation', term: 'Delegation', tier: 'Intermediate', definition: 'Backing a validator with your tokens to share its rewards (minus commission) without running hardware. On many chains, delegators also share the validator\'s slashing.' },
+  { id: 'liquid-staking', term: 'Liquid Staking', tier: 'Intermediate', definition: 'Staking through a protocol that issues a tradable receipt token (e.g. stETH) which accrues the yield — keeping staked capital usable, at the cost of contract, depeg, and concentration risks.' },
 
   // --- Smart contracts & assets ---
   { id: 'evm', term: 'EVM (Ethereum Virtual Machine)', tier: 'Intermediate', definition: 'The runtime that executes Ethereum smart contracts. "EVM-compatible" chains can run the same contracts.' },
@@ -48,6 +50,12 @@ export const GLOSSARY = [
   { id: 'erc-20', term: 'ERC-20', tier: 'Intermediate', definition: 'The Ethereum standard interface for fungible tokens (transfer, balanceOf, approve). Any wallet or DEX that supports ERC-20 works with every token that implements it.' },
   { id: 'stablecoin', term: 'Stablecoin', tier: 'Intermediate', definition: 'A token designed to hold a stable value, usually pegged to a fiat currency like the US dollar.' },
   { id: 'depeg', term: 'Depeg', tier: 'Intermediate', definition: 'When a stablecoin trades significantly away from its target value — a brief wobble if arbitrage restores it, or a death spiral if confidence in the mechanism collapses.' },
+
+  // --- DeFi ---
+  { id: 'defi', term: 'DeFi (Decentralized Finance)', tier: 'Intermediate', definition: 'Financial services — trading, lending, yield — rebuilt as smart contracts used directly from your own wallet, with no company custodying funds.' },
+  { id: 'amm', term: 'AMM (Automated Market Maker)', tier: 'Intermediate', definition: 'A DEX design that prices trades with a formula over a liquidity pool\'s balances (classically x × y = k) instead of an order book.' },
+  { id: 'liquidity-pool', term: 'Liquidity Pool', tier: 'Intermediate', definition: 'A smart contract holding paired tokens that traders swap against. Depositors (LPs) earn a share of trading fees proportional to their share of the pool.' },
+  { id: 'impermanent-loss', term: 'Impermanent Loss', tier: 'Advanced', definition: 'An LP\'s shortfall versus simply holding the pooled tokens, caused by their prices diverging. It reverses if prices reconverge — and becomes permanent on withdrawal.' },
 
   // --- Keys & wallets ---
   { id: 'private-key', term: 'Private Key', tier: 'Beginner', definition: 'A secret number that authorizes spending from an account. Whoever knows it controls the funds, so it must never be shared.' },

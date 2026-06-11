@@ -91,8 +91,8 @@ export const CURRICULUM = [
         name: 'Staking & DeFi',
         lessons: [
           { id: 'staking-yield' },
-          stub('validators-deep', 2, 'Validators in Depth', 'Running a validator, delegation, and slashing conditions.'),
-          stub('intro-defi', 2, 'Intro to DeFi', 'Lending, DEXs, AMMs, liquidity pools and yield — the building blocks.'),
+          { id: 'validators-deep' },
+          { id: 'intro-defi' },
         ],
       },
     ],

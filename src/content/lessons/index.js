@@ -25,6 +25,8 @@ import { lesson as coinsAtAGlance } from './full/coins-at-a-glance'
 import { lesson as coinsVsTokens } from './full/coins-vs-tokens'
 import { lesson as stablecoins } from './full/stablecoins'
 import { lesson as stakingYield } from './full/staking-yield'
+import { lesson as validatorsDeep } from './full/validators-deep'
+import { lesson as introDefi } from './full/intro-defi'
 import { lesson as marketStructure } from './full/market-structure'
 import { lesson as technicalAnalysis } from './full/technical-analysis'
 import { lesson as futuresVsPerps } from './full/futures-vs-perps'
@@ -55,6 +57,8 @@ const FULL_LESSONS = [
   coinsVsTokens,
   stablecoins,
   stakingYield,
+  validatorsDeep,
+  introDefi,
   marketStructure,
   technicalAnalysis,
   futuresVsPerps,
