@@ -43,7 +43,7 @@ export const GLOSSARY = [
   // --- Smart contracts & assets ---
   { id: 'evm', term: 'EVM (Ethereum Virtual Machine)', tier: 'Intermediate', definition: 'The runtime that executes Ethereum smart contracts. "EVM-compatible" chains can run the same contracts.' },
   { id: 'smart-contract', term: 'Smart Contract', tier: 'Intermediate', definition: 'Code deployed on-chain that runs exactly as written when called, without an intermediary.' },
-  { id: 'gas', term: 'Gas', tier: 'Intermediate', definition: 'The unit measuring computational work on Ethereum. Users pay a gas fee to have transactions processed.' },
+  { id: 'gas', term: 'Gas', tier: 'Intermediate', definition: 'The unit measuring computational work on Ethereum and similar chains. Users pay a gas fee, in the chain\'s native coin, to have transactions processed — colloquially, any chain\'s transaction fee.' },
   { id: 'token', term: 'Token', tier: 'Intermediate', definition: 'An asset issued via a smart contract on an existing chain (e.g. an ERC-20), as opposed to a chain\'s native coin.' },
   { id: 'stablecoin', term: 'Stablecoin', tier: 'Intermediate', definition: 'A token designed to hold a stable value, usually pegged to a fiat currency like the US dollar.' },
 

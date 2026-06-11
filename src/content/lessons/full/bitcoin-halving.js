@@ -43,6 +43,7 @@ export const lesson = {
         '**2016:** 12.5 BTC',
         '**2020:** 6.25 BTC',
         '**2024:** 3.125 BTC',
+        '**2028 (next):** 1.5625 BTC',
         '**…continuing** to halve every ~4 years until it rounds to zero around the year **2140**.',
       ],
     },
@@ -74,7 +75,7 @@ export const lesson = {
     },
     {
       type: 'paragraph',
-      text: 'Mining is paid by subsidy **plus** fees. As the subsidy shrinks toward zero, transaction [[gas|fees]] must eventually become the main reward that keeps miners — and therefore security — in place. Whether fee revenue alone will be enough to secure the network in the distant future is a genuine open debate, not a settled fact.',
+      text: 'Mining is paid by subsidy **plus** fees. As the subsidy shrinks toward zero, transaction fees must eventually become the main reward that keeps miners — and therefore security — in place. Whether fee revenue alone will be enough to secure the network in the distant future is a genuine open debate, not a settled fact.',
     },
     {
       type: 'callout',

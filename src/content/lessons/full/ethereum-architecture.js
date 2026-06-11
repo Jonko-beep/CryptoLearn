@@ -61,7 +61,7 @@ export const lesson = {
     },
     {
       type: 'paragraph',
-      text: 'In 2022\'s "Merge", Ethereum replaced mining with [[pos|Proof of Stake]]. [[validator|Validators]] lock up 32 ETH as a [[staking|stake]]; the protocol pseudo-randomly selects one to propose each block while others attest to it. Misbehavior is punished by **slashing** — destroying part of the stake. Security now comes from capital at risk rather than electricity burned.',
+      text: 'In 2022\'s "Merge", Ethereum replaced mining with [[pos|Proof of Stake]]. [[validator|Validators]] lock up at least 32 ETH as a [[staking|stake]] (since 2025\'s Pectra upgrade, a single validator can stake up to 2,048 ETH); the protocol pseudo-randomly selects one to propose each block while others attest to it. Misbehavior is punished by **slashing** — destroying part of the stake. Security now comes from capital at risk rather than electricity burned.',
     },
     {
       type: 'paragraph',

@@ -46,7 +46,7 @@ export const lesson = {
     },
     {
       type: 'paragraph',
-      text: 'You don\'t hand out your public key directly. Instead, an [[address]] is derived from it — typically by running it through a [[hash]] function and some encoding. The result is the short string you share to **receive** funds, like btc1q… or 0x… . It is safe to post publicly; the worst anyone can do with your address is send you money.',
+      text: 'You don\'t hand out your public key directly. Instead, an [[address]] is derived from it — typically by running it through a [[hash]] function and some encoding. The result is the short string you share to **receive** funds, like bc1q… or 0x… . It is safe to post publicly; the worst anyone can do with your address is send you money.',
     },
     {
       type: 'callout',

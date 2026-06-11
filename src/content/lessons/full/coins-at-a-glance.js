@@ -39,7 +39,7 @@ export const lesson = {
       ordered: false,
       items: [
         '**Cardano** — research-driven. Uses **eUTXO** (an extended UTXO model that supports contracts) and the peer-reviewed **Ouroboros** [[pos|Proof of Stake]] protocol.',
-        '**Avalanche** — multiple built-in chains plus customizable **subnets**, with a fast, repeated-sampling consensus that reaches finality in seconds.',
+        '**Avalanche** — multiple built-in chains plus customizable **subnets** (rebranded "Avalanche L1s" in late 2024), with a fast, repeated-sampling consensus that reaches finality in seconds.',
       ],
     },
     {
@@ -52,7 +52,7 @@ export const lesson = {
       ordered: false,
       items: [
         '**Polkadot** — a central **relay chain** provides shared security to many specialized **parachains** that plug into it.',
-        '**Cosmos** — an "internet of blockchains": independent chains built with **Tendermint** [[bft|BFT]] consensus, connected by the IBC messaging protocol. Deterministic, instant finality.',
+        '**Cosmos** — an "internet of blockchains": independent chains built with **Tendermint** [[bft|BFT]] consensus (the engine is now maintained as "CometBFT"), connected by the IBC messaging protocol. Deterministic, instant finality.',
         '**XRP Ledger** — payment-focused, using a trusted set of validators and a fast voting-based consensus rather than mining.',
       ],
     },
