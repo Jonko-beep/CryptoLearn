@@ -75,7 +75,7 @@ export const lesson = {
       items: [
         '**Bitcoin** — fees buy block *bytes*, not computation: you bid in sats per virtual byte of transaction size. Same auction, different commodity.',
         '**Solana** — tiny base fees by design, plus optional priority fees when specific state gets crowded; cheap until a hotspot forms.',
-        '**Layer 2 rollups** — execute off-chain and amortize Ethereum\'s costs across many users, which is why their fees are a fraction of mainnet\'s. They get a full lesson on the roadmap.',
+        '**Layer 2 rollups** — execute off-chain and amortize Ethereum\'s costs across many users, which is why their fees are a fraction of mainnet\'s. They get a full lesson at the end of this module.',
       ],
     },
     {

@@ -66,10 +66,10 @@ export const CURRICULUM = [
         id: 'how-blockchains-differ',
         name: 'How Blockchains Differ',
         lessons: [
-          stub('data-models', 2, 'Data Models: UTXO vs Account', 'The two ways chains track balances, and the tradeoffs of each.'),
+          { id: 'data-models' },
           { id: 'consensus-families' },
           { id: 'blockchain-trilemma' },
-          stub('smart-vs-payment-chains', 2, 'Smart-Contract vs Payment Chains', 'Turing-complete platforms vs purpose-built ledgers.'),
+          { id: 'smart-vs-payment-chains' },
           { id: 'ethereum-architecture' },
           { id: 'solana-architecture' },
           { id: 'coins-at-a-glance' },
@@ -83,7 +83,7 @@ export const CURRICULUM = [
           { id: 'nfts' },
           { id: 'gas-fees' },
           { id: 'stablecoins' },
-          stub('layer-2s', 2, 'Layer 2s (Rollups)', 'Scaling Ethereum by moving execution off-chain while inheriting its security.'),
+          { id: 'layer-2s' },
         ],
       },
       {

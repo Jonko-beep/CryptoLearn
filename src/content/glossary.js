@@ -45,6 +45,11 @@ export const GLOSSARY = [
   // --- Smart contracts & assets ---
   { id: 'evm', term: 'EVM (Ethereum Virtual Machine)', tier: 'Intermediate', definition: 'The runtime that executes Ethereum smart contracts. "EVM-compatible" chains can run the same contracts.' },
   { id: 'smart-contract', term: 'Smart Contract', tier: 'Intermediate', definition: 'Code deployed on-chain that runs exactly as written when called, without an intermediary.' },
+  { id: 'turing-complete', term: 'Turing-Complete', tier: 'Intermediate', definition: 'Able, in principle, to run any program. Turing-complete chains host arbitrary smart contracts — and must meter execution with gas, since programs can\'t be guaranteed to halt.' },
+  { id: 'layer-2', term: 'Layer 2 (L2)', tier: 'Intermediate', definition: 'A network that executes transactions off the base chain while using it for data and settlement — scaling Ethereum without changing its base layer.' },
+  { id: 'rollup', term: 'Rollup', tier: 'Intermediate', definition: 'A Layer 2 that batches transactions off-chain and posts compressed data plus state commitments to L1 — proven honest by fraud proofs (optimistic) or validity proofs (ZK).' },
+  { id: 'sequencer', term: 'Sequencer', tier: 'Advanced', definition: 'The operator that orders a rollup\'s transactions. Usually centralized today: it can censor or pause, but cannot steal funds thanks to L1 data and escape hatches.' },
+  { id: 'sidechain', term: 'Sidechain', tier: 'Intermediate', definition: 'A separate blockchain with its own validators, connected to a main chain by a bridge. Unlike a rollup, its security is its own — not inherited from the main chain.' },
   { id: 'gas', term: 'Gas', tier: 'Intermediate', definition: 'The unit measuring computational work on Ethereum and similar chains. Users pay a gas fee, in the chain\'s native coin, to have transactions processed — colloquially, any chain\'s transaction fee.' },
   { id: 'gwei', term: 'Gwei', tier: 'Intermediate', definition: 'The unit gas prices are quoted in: one billionth (10⁻⁹) of an ETH.' },
   { id: 'base-fee', term: 'Base Fee', tier: 'Intermediate', definition: 'The protocol-set portion of an Ethereum gas price — it rises when blocks run more than half full, falls when under, and is burned rather than paid to anyone.' },
