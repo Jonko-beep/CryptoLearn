@@ -11,7 +11,11 @@
  * To re-subject the whole app, rewrite this file + the lesson files + theme.js.
  */
 
-/** Helper to declare a roadmap stub concisely. */
+/**
+ * Helper to declare a roadmap stub concisely. Currently unused — every lesson
+ * is fully written — but kept so future roadmap entries can be stubbed in.
+ */
+// eslint-disable-next-line no-unused-vars
 const stub = (id, tier, title, summary) => ({ id, tier, title, summary, stub: true })
 
 export const CURRICULUM = [
@@ -37,12 +41,12 @@ export const CURRICULUM = [
         name: 'How Blockchains Work',
         lessons: [
           { id: 'blocks-hashing-chain' },
-          stub('merkle-trees', 1, 'Merkle Trees', 'Compressing thousands of transactions into a single verifiable root hash.'),
-          stub('nodes-p2p-network', 1, 'Nodes & the P2P Network', 'Full nodes, data propagation, and why there is no central server.'),
-          stub('mempool-lifecycle', 1, 'The Mempool', 'How a transaction travels from "sent" to "confirmed".'),
-          stub('block-production', 1, 'Block Production', 'Mining vs validating — who gets to add the next block, and why.'),
-          stub('forks-reorgs-finality', 1, 'Forks, Reorgs & Finality', 'Soft vs hard forks, what confirmations mean, probabilistic vs deterministic finality.'),
-          stub('immutability-limits', 1, 'Immutability & Its Limits', 'Why immutability holds in practice — and where it really ends.'),
+          { id: 'merkle-trees' },
+          { id: 'nodes-p2p-network' },
+          { id: 'mempool-lifecycle' },
+          { id: 'block-production' },
+          { id: 'forks-reorgs-finality' },
+          { id: 'immutability-limits' },
         ],
       },
       {

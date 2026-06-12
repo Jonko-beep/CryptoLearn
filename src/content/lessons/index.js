@@ -14,6 +14,12 @@ import { lesson as exchangesRamps } from './full/exchanges-ramps'
 import { lesson as buyingSendingSafely } from './full/buying-sending-safely'
 import { lesson as securityScams } from './full/security-scams'
 import { lesson as blocksHashingChain } from './full/blocks-hashing-chain'
+import { lesson as merkleTrees } from './full/merkle-trees'
+import { lesson as nodesP2pNetwork } from './full/nodes-p2p-network'
+import { lesson as mempoolLifecycle } from './full/mempool-lifecycle'
+import { lesson as blockProduction } from './full/block-production'
+import { lesson as forksReorgsFinality } from './full/forks-reorgs-finality'
+import { lesson as immutabilityLimits } from './full/immutability-limits'
 import { lesson as bitcoinArchitecture } from './full/bitcoin-architecture'
 import { lesson as bitcoinMining } from './full/bitcoin-mining'
 import { lesson as bitcoinHalving } from './full/bitcoin-halving'
@@ -53,6 +59,12 @@ const FULL_LESSONS = [
   buyingSendingSafely,
   securityScams,
   blocksHashingChain,
+  merkleTrees,
+  nodesP2pNetwork,
+  mempoolLifecycle,
+  blockProduction,
+  forksReorgsFinality,
+  immutabilityLimits,
   bitcoinArchitecture,
   bitcoinMining,
   bitcoinHalving,
